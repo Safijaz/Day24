@@ -14,8 +14,9 @@ import React, {Component} from 'react';
     }
     getMyStorage=()=>{
 
-      const myCookieData=localStorage.getItem('value','key');
-      
+      const myCookieData=localStorage.getItem('2021','Year');
+      const myLocalStorageDate=localStorage.getItem("yes, but Arena first","Paragon");
+      const mySessionStorageDate=localStorage.getItem("React","fronted");
     }
     
     render (){
